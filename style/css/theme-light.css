@@ -1,0 +1,11 @@
+html .theme-light{
+	background-color: #e0e9e8;
+}
+.theme-light .dropdown-menu{
+	background-color: #fff;
+	color: #212529;
+}
+.theme-light .nav-count.active{
+	background-color: red;
+	color: white;
+}
