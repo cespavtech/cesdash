@@ -1,0 +1,267 @@
+<!-- Styles and Meta Tags -->
+
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/images/defaults/logo.png">
+	<title>CesDash - Bootsrap5 Dashboard Template | Cestro Pavia</title>
+	<!-- Core CSS Frameworks -->
+	<!-- Google Icons -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap5/css/bootstrap.css">
+	<!-- Material Preloader -->
+	<link rel="stylesheet" type="text/css" href="plugins/preloader/mpl.css">
+	<!-- AOS -->
+	<link rel="stylesheet" type="text/css" href="plugins/aos/aos.css">
+
+	<!-- Template CSS -->
+	<!-- This file customizes the bootstrap css styling -->
+	<!-- Every customization made here is excluded from bootstrap.css file! -->
+	<link rel="stylesheet" type="text/css" href="style/css/template.css">
+	<!-- Theme CSS -->
+	<!-- All coloring and gradients are here! -->
+	<link rel="stylesheet" type="text/css" href="style/css/theme-dark.css">
+	<link rel="stylesheet" type="text/css" href="style/css/theme-light.css">
+</head>
+<!--
+PRO-TIP: 
+./Change general theme by altering theme-light|theme-dark 
+./Change sidebar/navbar/ bordering by altering classes;-
+sidebar-bordered|navbar-bordered
+-->
+<body class="theme-light sidebar-bordered navbar-bordered">
+<!-- Main page content -->
+<div class="main-content">
+	<!-- Load Desktop Sidebar -->
+	<div class="main-sidebar">
+	<div class="top-bar d-flex justify-content-start align-items-center" data-zindex="1080">
+		<div class="logo">
+			<a href="" class="btn">
+				<img src="assets/images/defaults/logo.png" alt="Logo" class="shadow-md rounded-circle">
+			</a>
+		</div>
+		<div class="brand">
+			<span class="fw-bold text-uppercase">
+				Cestro Pavia
+			</span>
+		</div>
+	</div>
+
+	<div class="side-wrap cp-scroll" >
+		<ul class="nav nav-pills flex-column pt-3 pb-2 no-br">
+			<li>
+				<a href="" class="nav-link active">
+					Overview
+				</a>
+			</li>
+			<li style="height: 600px;">
+				
+			</li>
+			<li>
+				<a href="" class="nav-link">Last Link</a>
+			</li>
+		</ul>	
+	</div>
+
+</div>
+	<!-- Main wrapper -->
+	<div class="main-wrapper ">
+		<!-- Load Main Navbar -->
+		<nav class="navbar fixed-top navbar-expand navbar-light main-navbar" data-zindex="1080">
+	<button class="btn navbar-toggler d-md-none d-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidemenuSm-modal" aria-controls="sidemenuSm-modal">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse justify-content-end justify-content-md-between">
+		<div class="nav-form d-none d-md-block">
+			<form class="form-inline" action="/search/">
+				<div class="input-group">
+					<input type="search" name="query" class="form-control" placeholder="Search here...">
+					<button class="btn btn-primary btn-search" type="submit">
+						<i class="material-icons">search</i>
+					</button>
+				</div>
+			</form>
+		</div>
+
+		<div class="user-navs d-flex justify-content-between nav-wrap">
+
+			<ul class="nav navbar-navs">
+				<button class="btn btn-light " type="button" data-bs-toggle="offcanvas" data-bs-target="#userAssess-modal" aria-controls="userAssess-modal">
+					<span class="material-icons nav-icon">assessment</span>
+					<span class="nav-count "></span>
+				</button>
+
+				<button class="btn btn-light nav-toggler" data-target="#userCart-modal">
+					<span class="material-icons nav-icon">shopping_cart</span>
+					<span class="nav-count "></span>
+				</button>
+
+				<button class="btn btn-light nav-toggler" data-target="#notif-modal">
+					<span class="material-icons nav-icon">notifications</span>
+					<span class="nav-count active">3</span>
+				</button>
+
+			</ul>
+
+			<div class="user-menu">
+			 <button class="btn nav-toggler" data-target="#userAccount-modal">
+			 	<img src="assets/images/defaults/user-icon.png" class="user-icon shadow-md rounded-circle" alt="user icon">
+			 </button>	
+			</div>
+		</div>
+	</div>
+</nav>
+		<!-- Finaly Load the dashboard page -->
+		<div class="p-3 page">
+  
+
+<div class="dropdown">
+  <button class="btn btn-secondary light" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    D
+  </button>
+  <ul class="dropdown-menu shadow mt-1" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+
+
+</div>	</div>
+	<!-- ./End main wraper -->
+</div>
+
+<!-- Load mobile sidebar -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+  </div>
+</div><!-- ./End main page content -->
+
+<!-- Modals For Navigation -->
+<div class="card clearfix shadow navbar-cards" id="notif-modal" data-right="100" data-width="350">
+	<div class="card-header">
+		<h5 class="text-center">
+			Account Notifications
+		</h5>
+	</div>
+
+	<div class="card-body">
+		<span>
+			You have no new notification!
+		</span>
+	</div>
+</div>
+
+<div class="card clearfix shadow navbar-cards" id="userCart-modal" data-right="100" data-width="350">
+	<div class="card-header">
+		<h5 class="text-center">
+			My Cart
+		</h5>
+	</div>
+
+	<div class="card-body">
+		<span>
+			Your cart is empty!
+		</span>
+	</div>
+</div>
+
+
+<div class="card clearfix shadow navbar-cards" id="userAccount-modal" data-right="50" data-width="300">
+	<div class="card-header">
+		<h5 class="text-center">
+			Account Manager
+		</h5>
+	</div>
+
+	<div class="card-body">
+		<span>
+			Hello, World!
+		</span>
+	</div>
+</div>
+
+
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="userAssess-modal" aria-labelledby="userAssess-modal-Label" data-zindex="1580">
+  <div class="offcanvas-header like-navHeight">
+    <h5 class="offcanvas-title" id="userAssess-modal-Label">Account Reporting</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div style="height: 600px;">
+      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Small Sidemenu -->
+<div class="offcanvas offcanvas-start sidebar-sm" tabindex="-1" id="sidemenuSm-modal" aria-labelledby="sidemenuSm-modal-Label" data-zindex="1580">
+  <div class="offcanvas-header justify-content-start align-items-center px-0">
+    <div class="logo">
+			<a href="" class="btn">
+				<img src="assets/images/defaults/logo.png" alt="Logo" class="shadow-md rounded-circle">
+			</a>
+		</div>
+		<div class="brand">
+			<span class="fw-bold text-uppercase">
+				Cestro Pavia
+			</span>
+		</div>
+  </div>
+  <div class="offcanvas-body px-0">
+    <ul class="nav nav-pills flex-column no-br">
+    	<li>
+    		<a href="" class="nav-link active">
+    			Overview
+    		</a>
+    	</li>
+    	<li style="height: 600px;">
+				
+		</li>
+		<li>
+			<a href="" class="nav-link">Last Link</a>
+		</li>
+    </ul>
+
+  </div>
+</div>
+<!-- Scripts -->
+</body>
+<!-- Core JS Frameworks -->
+<!-- Bootstrap -->
+<script type="text/javascript" src="assets/bootstrap5/js/bootstrap.bundle.min.js"></script>
+<!-- JQuery -->
+<script type="text/javascript" src="assets/jquery/jquery.min.js"></script>
+<!-- Preloader  Loaded after JQuery! -->
+<script type="text/javascript" src="plugins/preloader/mpl.js"></script>
+<!-- AOS -->
+<script type="text/javascript" src="plugins/aos/aos.js"></script>
+
+<!-- Template JS Loaded after JQuery! -->
+<script type="text/javascript" src="style/js/template.js"></script>
+</html>
